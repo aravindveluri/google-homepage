@@ -3,6 +3,47 @@
     margin:150px auto 50px auto;
     box-sizing: border-box;
 }
+.nav{
+    width:100%;
+}
+.bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+li:nth-of-type(1), li:nth-of-type(2), li:nth-of-type(3){
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 15px 10px 8px;
+}
+.account {
+    height:33px;
+    width: 33px;
+    border: none;
+    border-radius: 200px;
+    background-image: url("dog-image.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%; 
+    margin-right: 35px;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+.bar a{
+    text-decoration: none;
+    color: black;
+}
+.bar a:nth-of-type(1):visited, .bar a:nth-of-type(2):visited{
+    text-decoration: none;
+    color: black;
+    
+}
+.bar li:nth-of-type(1):hover, .bar li:nth-of-type(2):hover {
+    text-decoration-line: underline;
+}
+
+
 .logo{
     display:flex;
     justify-content: space-evenly;
